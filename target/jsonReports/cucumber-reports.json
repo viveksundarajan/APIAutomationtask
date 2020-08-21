@@ -1,0 +1,282 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-19T10:47:31.698Z",
+        "line": 12,
+        "name": "verify if the email is correct in the comments added by the given user",
+        "description": "",
+        "id": "validating-user-post-and-comments;verify-if-the-email-is-correct-in-the-comments-added-by-the-given-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1499000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "get the list of users with \"GetUserAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GetUserAPI",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinations.StepDefination.add_place_payload(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 674000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "retreive userID \"Kamren\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kamren",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinations.StepDefination.retreive_user_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 242000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "get the posts from the user with \"GetPostAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GetPostAPI",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinations.StepDefination.get_the_posts_from_the_user_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1438000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "retreive the \"email\" from comments using \"GetCommentAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 14
+                },
+                {
+                  "val": "GetCommentAPI",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinations.StepDefination.retreive_the_email_from_comments_using_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "email validation is success",
+            "match": {
+              "location": "stepDefinations.StepDefination.email_validation_is_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-19T10:47:35.616Z",
+        "line": 15,
+        "name": "verify the respone code is 200 while retreiving the userdata",
+        "description": "",
+        "id": "validating-user-post-and-comments;verify-the-respone-code-is-200-while-retreiving-the-userdata",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "get the list of users with \"GetUserAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GetUserAPI",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinations.StepDefination.add_place_payload(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "retreive userID \"Bret\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bret",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinations.StepDefination.retreive_user_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify status code in response is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinations.StepDefination.verify_the_status_code_in_response_is_something(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-19T10:47:35.804Z",
+        "line": 21,
+        "name": "Verify the given title is present in albums for the given user and verify expected server name in the header",
+        "description": "",
+        "id": "validating-user-post-and-comments;verify-the-given-title-is-present-in-albums-for-the-given-user-and-verify-expected-server-name-in-the-header",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "get the list of users with \"GetUserAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GetUserAPI",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinations.StepDefination.add_place_payload(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "retreive userID \"Bret\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bret",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinations.StepDefination.retreive_user_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "get the albums from the user with \"GetAlbumsAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GetAlbumsAPI",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinations.StepDefination.get_the_albums_from_the_user_with_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify the title \"omnis laborum odio\" is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "omnis laborum odio",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinations.StepDefination.verify_the_title_something_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "\"server\" name in response is \"cloudflare\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "server",
+                  "offset": 1
+                },
+                {
+                  "val": "cloudflare",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.StepDefination.something_name_in_response_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "validating User post and comments",
+    "description": "",
+    "id": "validating-user-post-and-comments",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/PlaceValidation.feature",
+    "tags": []
+  }
+]
