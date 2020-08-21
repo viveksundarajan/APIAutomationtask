@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="5.133" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="10.032" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\U134169\AppData\Local\Temp\1\surefire5795837763935738356\surefirebooter817396041907459606.jar C:\Users\U134169\AppData\Local\Temp\1\surefire5795837763935738356 2020-08-19T12-47-30_366-jvmRun1 surefire864563599763557344tmp surefire_04785980071404904034tmp"/>
+    <property name="sun.java.command" value="C:\Users\U134169\AppData\Local\Temp\1\surefire4449139175569446904\surefirebooter7083049890317903440.jar C:\Users\U134169\AppData\Local\Temp\1\surefire4449139175569446904 2020-08-21T13-37-12_195-jvmRun1 surefire4849777331884448780tmp surefire_03735507446016710598tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\U134169\eclipse-workspace\RestAutomation\target\test-classes;C:\Users\U134169\eclipse-workspace\RestAutomation\target\classes;C:\Users\U134169\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\U134169\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\U134169\.m2\repository\io\cucumber\cucumber-java\6.4.0\cucumber-java-6.4.0.jar;C:\Users\U134169\.m2\repository\io\cucumber\cucumber-core\6.4.0\cucumber-core-6.4.0.jar;C:\Users\U134169\.m2\repository\io\cucumber\cucumber-gherkin\6.4.0\cucumber-gherkin-6.4.0.jar;C:\Users\U134169\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.4.0\cucumber-gherkin-messages-6.4.0.jar;C:\Users\U134169\.m2\repository\io\cucumber\messages\12.4.0\messages-12.4.0.jar;C:\Users\U134169\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\U134169\.m2\repository\io\cucumber\cucumber-expressions\10.2.2\cucumber-expressions-10.2.2.jar;C:\Users\U134169\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\U134169\.m2\repository\io\cucumber\cucumber-plugin\6.4.0\cucumber-plugin-6.4.0.jar;C:\Users\U134169\.m2\repository\io\cucumber\docstring\6.4.0\docstring-6.4.0.jar;C:\Users\U134169\.m2\repository\io\cucumber\html-formatter\7.2.0\html-formatter-7.2.0.jar;C:\Users\U134169\.m2\repository\io\cucumber\create-meta\1.1.0\create-meta-1.1.0.jar;C:\Users\U134169\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\U134169\.m2\repository\io\cucumber\cucumber-junit\6.4.0\cucumber-junit-6.4.0.jar;C:\Users\U134169\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\U134169\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\U134169\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\U134169\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\U134169\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\U134169\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\U134169\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\U134169\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\U134169\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\U134169\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\U134169\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\U134169\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\U134169\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\U134169\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\U134169\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\U134169\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\U134169\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\U134169\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\U134169\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.2\jackson-databind-2.11.2.jar;C:\Users\U134169\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.2\jackson-annotations-2.11.2.jar;C:\Users\U134169\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.2\jackson-core-2.11.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\U134169"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\U134169\AppData\Local\Temp\1\surefire5795837763935738356\surefirebooter817396041907459606.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\U134169\AppData\Local\Temp\1\surefire4449139175569446904\surefirebooter7083049890317903440.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\U134169\AppData\Local\Android\Sdk\tools\bin;C:\Users\U134169\AppData\Local\Android\Sdk\tools;C:\Users\U134169\AppData\Local\Android\Sdk\platform-tools;C:\Users\U134169\AppData\Roaming\npm\bin;C:\Program Files\Git\cmd;C:\Users\U134169\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\U134169\AppData\Local\Microsoft\WindowsApps;C:\Users\U134169\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\U134169\AppData\Local\Programs\Python\Python38-32;C:\Users\U134169\AppData\Local\Programs\Python\Python38-32\Scripts;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\U134169\AppData\Local\Android\Sdk\tools\bin;C:\Users\U134169\AppData\Local\Android\Sdk\tools;C:\Users\U134169\AppData\Local\Android\Sdk\platform-tools;C:\Users\U134169\AppData\Roaming\npm\bin;C:\Program Files\Git\cmd;C:\Users\U134169\AppData\Local\Microsoft\WindowsApps;C:\Users\U134169\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\U134169\AppData\Local\Programs\Python\Python38-32;C:\Users\U134169\AppData\Local\Programs\Python\Python38-32\Scripts;;C:\Users\U134169\Desktop;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.131-b11"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="verify if the email is correct in the comments added by the given user" classname="validating User post and comments" time="4.067">
+  <testcase name="verify if the email is correct in the comments added by the given user" classname="Validating User post comments and albums" time="8.549">
     <system-out><![CDATA[
 Scenario Outline: verify if the email is correct in the comments added by the given user # src/test/java/features/PlaceValidation.feature:12
   Given get the list of users with "GetUserAPI"                                          # stepDefinations.StepDefination.add_place_payload(java.lang.String)
@@ -73,7 +73,7 @@ Kamren
   Then email validation is success                                                       # stepDefinations.StepDefination.email_validation_is_success()
 ]]></system-out>
   </testcase>
-  <testcase name="verify the respone code is 200 while retreiving the userdata" classname="validating User post and comments" time="0.169">
+  <testcase name="verify the respone code is 200 while retreiving the userdata" classname="Validating User post comments and albums" time="0.187">
     <system-out><![CDATA[
 Scenario: verify the respone code is 200 while retreiving the userdata # src/test/java/features/PlaceValidation.feature:15
   Given get the list of users with "GetUserAPI"                        # stepDefinations.StepDefination.add_place_payload(java.lang.String)
@@ -83,12 +83,12 @@ Bret
   Then verify status code in response is 200                           # stepDefinations.StepDefination.verify_the_status_code_in_response_is_something(int)
 ]]></system-out>
   </testcase>
-  <testcase name="Verify the given title is present in albums for the given user and verify expected server name in the header" classname="validating User post and comments" time="0.443">
+  <testcase name="Verify the given title is present in albums for the given user and verify expected server name in  header section" classname="Validating User post comments and albums" time="0.81">
     <system-out><![CDATA[
-Scenario: Verify the given title is present in albums for the given user and verify expected server name in the header # src/test/java/features/PlaceValidation.feature:21
-  Given get the list of users with "GetUserAPI"                                                                        # stepDefinations.StepDefination.add_place_payload(java.lang.String)
+Scenario: Verify the given title is present in albums for the given user and verify expected server name in  header section # src/test/java/features/PlaceValidation.feature:21
+  Given get the list of users with "GetUserAPI"                                                                             # stepDefinations.StepDefination.add_place_payload(java.lang.String)
 Bret
-  When retreive userID "Bret"                                                                                          # stepDefinations.StepDefination.retreive_user_something(java.lang.String)
+  When retreive userID "Bret"                                                                                               # stepDefinations.StepDefination.retreive_user_something(java.lang.String)
 quidem molestiae enim
 sunt qui excepturi placeat culpa
 omnis laborum odio
@@ -100,9 +100,9 @@ qui fuga est a eum
 saepe unde necessitatibus rem
 distinctio laborum qui
 [quidem molestiae enim, sunt qui excepturi placeat culpa, omnis laborum odio, non esse culpa molestiae omnis sed optio, eaque aut omnis a, natus impedit quibusdam illo est, quibusdam autem aliquid et et quia, qui fuga est a eum, saepe unde necessitatibus rem, distinctio laborum qui]
-  And get the albums from the user with "GetAlbumsAPI"                                                                 # stepDefinations.StepDefination.get_the_albums_from_the_user_with_something(java.lang.String)
-  Then verify the title "omnis laborum odio" is present                                                                # stepDefinations.StepDefination.verify_the_title_something_is_present(java.lang.String)
-  And "server" name in response is "cloudflare"                                                                        # stepDefinations.StepDefination.something_name_in_response_is_something(java.lang.String,java.lang.String)
+  And get the albums from the user with "GetAlbumsAPI"                                                                      # stepDefinations.StepDefination.get_the_albums_from_the_user_with_something(java.lang.String)
+  Then verify the title "omnis laborum odio" is present                                                                     # stepDefinations.StepDefination.verify_the_title_something_is_present(java.lang.String)
+  And "server" name in response header is "cloudflare"                                                                      # stepDefinations.StepDefination.something_name_in_response_is_something(java.lang.String,java.lang.String)
 ]]></system-out>
   </testcase>
 </testsuite>

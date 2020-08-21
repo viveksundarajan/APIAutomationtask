@@ -3,17 +3,17 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-08-19T10:47:31.698Z",
+        "start_timestamp": "2020-08-21T11:37:13.522Z",
         "line": 12,
         "name": "verify if the email is correct in the comments added by the given user",
         "description": "",
-        "id": "validating-user-post-and-comments;verify-if-the-email-is-correct-in-the-comments-added-by-the-given-user;;2",
+        "id": "validating-user-post-comments-and-albums;verify-if-the-email-is-correct-in-the-comments-added-by-the-given-user;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1499000000,
+              "duration": 1849000000,
               "status": "passed"
             },
             "line": 4,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 674000000,
+              "duration": 763000000,
               "status": "passed"
             },
             "line": 5,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 242000000,
+              "duration": 656000000,
               "status": "passed"
             },
             "line": 6,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 1438000000,
+              "duration": 5100000000,
               "status": "passed"
             },
             "line": 7,
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 8,
@@ -102,17 +102,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-19T10:47:35.616Z",
+        "start_timestamp": "2020-08-21T11:37:21.955Z",
         "line": 15,
         "name": "verify the respone code is 200 while retreiving the userdata",
         "description": "",
-        "id": "validating-user-post-and-comments;verify-the-respone-code-is-200-while-retreiving-the-userdata",
+        "id": "validating-user-post-comments-and-albums;verify-the-respone-code-is-200-while-retreiving-the-userdata",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 136000000,
+              "duration": 126000000,
               "status": "passed"
             },
             "line": 16,
@@ -130,7 +130,7 @@
           },
           {
             "result": {
-              "duration": 25000000,
+              "duration": 39000000,
               "status": "passed"
             },
             "line": 17,
@@ -148,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 23000000,
+              "duration": 28000000,
               "status": "passed"
             },
             "line": 18,
@@ -167,17 +167,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-19T10:47:35.804Z",
+        "start_timestamp": "2020-08-21T11:37:22.151Z",
         "line": 21,
-        "name": "Verify the given title is present in albums for the given user and verify expected server name in the header",
+        "name": "Verify the given title is present in albums for the given user and verify expected server name in  header section",
         "description": "",
-        "id": "validating-user-post-and-comments;verify-the-given-title-is-present-in-albums-for-the-given-user-and-verify-expected-server-name-in-the-header",
+        "id": "validating-user-post-comments-and-albums;verify-the-given-title-is-present-in-albums-for-the-given-user-and-verify-expected-server-name-in--header-section",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 139000000,
+              "duration": 127000000,
               "status": "passed"
             },
             "line": 22,
@@ -195,7 +195,7 @@
           },
           {
             "result": {
-              "duration": 52000000,
+              "duration": 68000000,
               "status": "passed"
             },
             "line": 23,
@@ -213,7 +213,7 @@
           },
           {
             "result": {
-              "duration": 193000000,
+              "duration": 595000000,
               "status": "passed"
             },
             "line": 24,
@@ -231,7 +231,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 25,
@@ -249,11 +248,11 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 26,
-            "name": "\"server\" name in response is \"cloudflare\"",
+            "name": "\"server\" name in response header is \"cloudflare\"",
             "match": {
               "arguments": [
                 {
@@ -262,7 +261,7 @@
                 },
                 {
                   "val": "cloudflare",
-                  "offset": 30
+                  "offset": 37
                 }
               ],
               "location": "stepDefinations.StepDefination.something_name_in_response_is_something(java.lang.String,java.lang.String)"
@@ -272,9 +271,9 @@
         ]
       }
     ],
-    "name": "validating User post and comments",
+    "name": "Validating User post comments and albums",
     "description": "",
-    "id": "validating-user-post-and-comments",
+    "id": "validating-user-post-comments-and-albums",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/PlaceValidation.feature",
     "tags": []
